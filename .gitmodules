@@ -1,6 +1,10 @@
 [submodule "inbank-frontend"]
 	path = inbank-frontend
 	url = https://github.com/boostd/inbank-frontend
+	branch = main
+	update = merge
 [submodule "inbank-backend"]
 	path = inbank-backend
 	url = https://github.com/boostd/inbank-backend
+	branch = main
+	update = merge
