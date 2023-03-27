@@ -1,6 +1,6 @@
 [submodule "inbank-frontend"]
 	path = inbank-frontend
-	url = https://github.com/boostd/inbank-frontend/tree/main
+	url = https://github.com/boostd/inbank-frontend
 [submodule "inbank-backend"]
 	path = inbank-backend
-	url = https://github.com/boostd/inbank-backend/tree/main
+	url = https://github.com/boostd/inbank-backend
