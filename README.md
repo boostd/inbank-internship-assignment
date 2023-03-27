@@ -26,7 +26,13 @@ To install and run the application, please follow these steps:
 ```
 git clone --recurse-submodules https://github.com/boostd/inbank-internship-assignment.git
 ```
-2. Install and run the backend:
+2. Then in the root folder of the project run:
+```
+git submodule update 
+git submodule foreach git checkout master 
+git submodule foreach git pull origin master 
+```
+3. Install and run the backend:
     1. Navigate to the backend submodule directory:
     ```
     cd ../inbank-backend
@@ -34,7 +40,7 @@ git clone --recurse-submodules https://github.com/boostd/inbank-internship-assig
     2. Run `gradle build` to build the application.
     3. Run `java -jar build/libs/inbank-backend-1.0.jar` to start the application. The default port is 8080.
 
-3. Install and run the frontend:
+4. Install and run the frontend:
     1. Navigate to the frontend submodule directory:
     ```
     cd inbank-frontend
